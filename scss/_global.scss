@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: crimson;
+  margin: 0 50px 0 0px;
+}
+.activate {
+    color: #8db3e2;
+    border: 1px solid #2a2a2a;
+    padding: 1px 3px;
+}
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box-in-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgba(#2a2a2a, .45);
+    color: white;
+}
+.box {
+    padding: 30px 20px;
+    width: calc(100% - 44px);
+    border: #2a2a2a 2px solid;
+}

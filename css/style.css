@@ -1,0 +1,286 @@
+a {
+  text-decoration: none;
+  color: crimson;
+  margin: 0 50px 0 0px; }
+
+.activate {
+  color: #8db3e2;
+  border: 1px solid #2a2a2a;
+  padding: 1px 3px; }
+
+.parallax, .pic, .backPic1, .backPic2, .backPic3, .backPic4, .backPic5, .backPic6, .backPic7 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.box-in-box, .pic .info, .menuBack {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: rgba(42, 42, 42, 0.45);
+  color: white; }
+
+.box, .pic .info .infoPara, .menuBack .Top, .menuBack .Bot {
+  padding: 30px 20px;
+  width: calc(100% - 44px);
+  border: #2a2a2a 2px solid; }
+
+.pic {
+  background-image: url("../Pictures/about.jpg"); }
+  .pic .header {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 20px 20px;
+    padding-top: 20px;
+    font-size: 2em;
+    color: white; }
+  .pic .info .infoPara .far {
+    font-size: .4em; }
+
+.menuHead {
+  display: flex;
+  justify-content: center;
+  background-color: #dadfea;
+  position: sticky;
+  top: 100px; }
+  .menuHead .topHead {
+    font-size: 3em; }
+
+.menuBack {
+  margin-top: 20px; }
+  .menuBack .Top {
+    font-size: 1.7em; }
+  .menuBack .Bot {
+    display: flex;
+    flex-direction: column; }
+
+.backPic1 {
+  background-image: url("../Pictures/burger-hero.jpg");
+  background-position-y: 110px;
+  padding: 30px; }
+
+.backPic2 {
+  background-image: url("../Pictures/Screen Shot 2019-09-27 at 3.38.05 PM.png");
+  padding: 30px;
+  margin-top: 30px; }
+
+.backPic3 {
+  background-image: url("../Pictures/fries.jpeg");
+  padding: 30px;
+  margin-top: 30px; }
+
+.backPic4 {
+  background-image: url("../Pictures/chicken.jpg");
+  padding: 30px;
+  margin-top: 30px; }
+
+.backPic5 {
+  background-image: url("../Pictures/drink.jpg");
+  padding: 30px;
+  margin-top: 30px;
+  min-height: 500px; }
+
+.backPic6 {
+  background-image: url("../Pictures/cone.jpg");
+  padding: 30px;
+  margin-top: 30px; }
+
+.backPic7 {
+  background-image: url("../Pictures/shake.jpg");
+  padding: 30px;
+  margin-top: 30px; }
+
+.map {
+  background-image: url("../Pictures/Screen Shot 2019-09-26 at 2.03.02 PM.png");
+  height: calc(100% - 110px);
+  background-attachment: fixed;
+  background-position-y: 110px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px; }
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../Pictures/clouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .places .city {
+    padding: 20px 5% 3% 5%;
+    width: 50%;
+    border: 2px #2a2a2a solid;
+    color: white;
+    font-size: .9em; }
+    .places .city .title {
+      font-size: 1.7em; }
+
+.contact {
+  height: calc(100% - 160px); }
+  .contact .conTitle {
+    font-size: 1.5em;
+    margin: 0 15px; }
+  .contact .phone {
+    margin: 15px; }
+  .contact .email {
+    margin: 15px; }
+
+body, html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 20px; }
+  body .navbar, html .navbar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0; }
+    body .navbar .img, html .navbar .img {
+      flex-grow: 2; }
+      body .navbar .img .image, html .navbar .img .image {
+        width: 230px; }
+  body .main, html .main {
+    background-image: url("../Pictures/burger-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100% - 160px);
+    color: #ffffff;
+    display: flex;
+    justify-content: center; }
+    body .main .text, html .main .text {
+      margin-top: 50px;
+      width: 50%;
+      text-align: center;
+      font-size: 3em; }
+  body .botBar, html .botBar {
+    display: flex;
+    justify-content: center;
+    min-height: 50px; }
+    body .botBar button, html .botBar button {
+      border: none; }
+    body .botBar .faq, html .botBar .faq {
+      flex-grow: 1;
+      width: 38%; }
+      body .botBar .faq .faq1, html .botBar .faq .faq1 {
+        padding: 10px; }
+    body .botBar .middle, html .botBar .middle {
+      width: 20%;
+      display: flex; }
+      body .botBar .middle .socMed, html .botBar .middle .socMed {
+        padding: 10px;
+        font-size: 1.3em;
+        margin: 0 5px; }
+      body .botBar .middle .subscribe, html .botBar .middle .subscribe {
+        padding: 10px;
+        font-size: 1em;
+        text-decoration: underline;
+        margin: 0; }
+    body .botBar .space, html .botBar .space {
+      width: 40%;
+      flex-grow: 2; }
+
+#myBtn {
+  text-decoration: underline; }
+
+.subBtn:hover {
+  cursor: pointer; }
+
+.container {
+  width: 90%; }
+  .container .container2 {
+    display: flex;
+    flex-direction: column; }
+    .container .container2 .input, .container .container2 .input3 {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 10px; }
+    .container .container2 .input1 {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px; }
+      .container .container2 .input1 input {
+        margin: 0 0 0 10px; }
+    .container .container2 .input3 {
+      justify-content: flex-start;
+      align-items: center; }
+      .container .container2 .input3 input {
+        margin: 0 0 0 10px; }
+  .container .inputTitle {
+    font-size: 1.5em;
+    margin: 5px 10px;
+    font-weight: bold; }
+    .container .inputTitle .subSub {
+      font-size: .85em; }
+
+.job {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+  .job .subWork {
+    margin: 0 0 0 10px;
+    font-size: 1.4em; }
+  .job .work {
+    margin: 0 0 0 10px;
+    width: 60%; }
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.faqTitle {
+  font-size: 2em;
+  margin: 10px; }
+
+.faqA {
+  margin: 10px; }
+  .faqA .faqTop {
+    font-size: 1.4em;
+    border: none;
+    cursor: pointer; }

@@ -1,0 +1,66 @@
+.menuHead {
+  display: flex;
+  justify-content: center;
+  background-color: #dadfea;
+  position: sticky;
+  top: 100px;
+  .topHead {
+    font-size: 3em;
+  }
+}
+.menuBack {
+  @extend .box-in-box;
+  margin-top: 20px;
+  .Top {
+    @extend .box;
+    font-size: 1.7em;
+  }
+  .Bot {
+    @extend .box;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.backPic1 {
+  background-image: url("../Pictures/burger-hero.jpg");
+  @extend .parallax;
+  background-position-y: 110px;
+  padding: 30px;
+}
+.backPic2 {
+  background-image: url("../Pictures/Screen Shot 2019-09-27 at 3.38.05 PM.png");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+}
+.backPic3 {
+  background-image: url("../Pictures/fries.jpeg");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+}
+.backPic4 {
+  background-image: url("../Pictures/chicken.jpg");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+}
+.backPic5 {
+  background-image: url("../Pictures/drink.jpg");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+  min-height: 500px;
+}
+.backPic6 {
+  background-image: url("../Pictures/cone.jpg");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+}
+.backPic7 {
+  background-image: url("../Pictures/shake.jpg");
+  @extend .parallax;
+  padding: 30px;
+  margin-top: 30px;
+}

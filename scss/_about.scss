@@ -1,0 +1,21 @@
+.pic {
+  background-image: url("../Pictures/about.jpg");
+  @extend .parallax;
+  .header {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 20px 20px;
+    padding-top: 20px;
+    font-size: 2em;
+    color: white;
+  }
+  .info {
+    @extend .box-in-box;
+    .infoPara {
+      @extend .box;
+      .far {
+        font-size: .4em;
+      }
+    }
+  }
+}
